@@ -17,11 +17,22 @@
 
     <div id="status" class="status"></div>
 
+    <div clid="status" class="status"></div>
+
+    <div class="player-bar" id="playerBar" hidden>
+      <button id="playBtn" class="icon-btn" title="پخش / توقف">▶</button>
+      <button id="stopBtn" class="icon-btn" title="توقف کwrap">
+        <div id="progressFill" class="progress-fill"></div>
+      </div>
+      <span id="timeLabel" class="time-label">0:00</span>
+    </div>
+
     <div id="tabContainer">
       <div id="alphaTab"></div>
     </div>
   </main>
 
+  <!-- alphaTab باید قبل از main.js بارگذاری شود -->
   <script src="https://cdn.jsdelivr.net/npm/@coderline/alphatab@1/dist/alphaTab.min.js"></script>
   <script src="main.js"></script>
 </body>
