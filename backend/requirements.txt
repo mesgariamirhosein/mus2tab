@@ -1,0 +1,22 @@
+basic-pitch==توا بساز:
+```text
+basic-pitch==0.3.4
+demucs==4.0.1
+flask==3.1.1
+flask-cors==5.0.1
+nump
+
+## ۳. نصب وابستگی‌ها
+
+bash
+pip install -r requirements.txt
+
+> توجه: نصب `demucs` و `basic-pitch` کمگ طول می‌کشه چون مدل‌های ML سنگینی دارن. حدود گینی دارن. حدود ۵۰۰MB+ دانلود خواهند داشتc "from basic_pitch.inference import predict; print('basic-pitch OK')"
+python -c "import demucs; print('demucs OK')"
+
+
+اگه هر دو `OK` نشون داد، محیط آماده‌ست.
+
+---
+
+بعد از این مرحله، اولین API ساده Flask رو می‌سازیم که یه فایل صوتی بگیره و پردازشش کنه. وقتی نصب تموم شد بگو تا ادامه بدیم....
